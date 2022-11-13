@@ -1,0 +1,57 @@
+.homeRow
+	color: rgb(255, 255, 255)
+	font-weight: 300
+	@media screen and (max-width: 800px)
+		display: flex
+		flex-direction: column
+		align-content: center
+		flex-wrap: nowrap
+
+.hello
+	font-size: 125px
+	@media screen and (max-width: 1200px)
+		font-size: 100px
+	@media screen and (max-width: 900px)
+		font-size: 80px
+
+.imgHomeCol
+	display: flex
+	@media screen and (min-width: 801px)
+		justify-content: flex-end
+	.imgHome
+		@media screen and (max-width: 1200px)
+			width: 400px
+		@media screen and (max-width: 900px)
+			width: 300px
+		@media screen and (max-width: 800px)
+			margin: 0 auto
+
+.text
+	font-size: 26px
+	@media screen and (max-width: 1200px)
+		font-size: 20px
+	@media screen and (max-width: 900px)
+		font-size: 18px
+
+.iconsAndText
+	display: flex
+	align-items: center
+
+	.illia
+		margin-right: 15px
+		text-align: center
+		@media screen and (max-width: 800px)
+			margin: 0 0 25px 0
+
+	@media screen and (max-width: 800px)
+		display: block
+		margin: 0 auto
+
+.icon
+	border: 10px solid #ffffff00
+	border-radius: 50%
+	color: #fff
+	transition: .3s
+
+	&:hover
+		border: 10px solid #ffffff11
