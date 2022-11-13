@@ -60,7 +60,10 @@ const Home = () => {
 				<img src={img} alt='PF' className='imgHome' />
 			</Col>
 			<Col>
-				<div className='text' style={{ marginTop: '50px' }}>
+				<div
+					className='text'
+					style={{ marginTop: '50px', textAlign: 'center' }}
+				>
 					We<span style={{ color: 'rgb(240, 78, 35)' }}>l</span>come To My
 					Persona<span style={{ color: 'rgb(0, 174, 224)' }}>l</span> Portfo
 					<span style={{ color: 'rgb(240, 78, 35)' }}>l</span>io

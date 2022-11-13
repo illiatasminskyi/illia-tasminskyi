@@ -3,6 +3,7 @@ import { Row, Col, Space } from 'antd'
 import TodoListImg from './img/TodoList.png'
 import ClockImg from './img/ClockImg.png'
 import GithubImg from './img/GithubImg.png'
+import { v4 as uuid } from 'uuid'
 import './Portfolio.sass'
 
 export const ProjectState = [
@@ -38,6 +39,7 @@ const Portfolio = () => {
 						margin: '0 auto',
 					}}
 					className={'links'}
+					key={uuid()}
 				>
 					<a href={project.link} target='_blank' className='link'>
 						<Space direction='vertical'>

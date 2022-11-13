@@ -24,12 +24,22 @@ const DrawerMenu = ({ open, onClose }) => {
 			>
 				<Row justify='center' style={{ padding: '40px 0' }}>
 					<Col span={24} style={{ display: 'flex' }}>
-						<NavLink to='/' className='links' style={linkStyle}>
+						<NavLink
+							to='/'
+							className='links'
+							style={linkStyle}
+							onClick={() => onClose()}
+						>
 							Home
 						</NavLink>
 					</Col>
 					<Col span={24} style={{ display: 'flex' }}>
-						<NavLink to='portfolio' className='links' style={linkStyle}>
+						<NavLink
+							to='portfolio'
+							className='links'
+							style={linkStyle}
+							onClick={() => onClose()}
+						>
 							Portfolio
 						</NavLink>
 					</Col>
