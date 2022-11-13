@@ -18,7 +18,12 @@ const Menu = () => {
 				</NavLink>
 			</Col>
 			<Col style={{ cursor: 'pointer' }}>
-				<Link to='/files/CV-en.pdf' target='_blank' className='links' download>
+				<Link
+					to='/files/CV-illia-tasminskyi.pdf'
+					target='_blank'
+					className='links'
+					download
+				>
 					CV <CloudDownloadOutlined />
 				</Link>
 			</Col>

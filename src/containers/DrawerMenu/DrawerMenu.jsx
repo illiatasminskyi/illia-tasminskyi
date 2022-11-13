@@ -35,7 +35,7 @@ const DrawerMenu = ({ open, onClose }) => {
 					</Col>
 					<Col span={24} style={{ cursor: 'pointer', display: 'flex' }}>
 						<Link
-							to='/files/CV-en.pdf'
+							to='/files/CV-illia-tasminskyi.pdf'
 							target='_blank'
 							className='links'
 							style={linkStyle}
